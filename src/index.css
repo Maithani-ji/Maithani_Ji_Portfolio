@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-Sora: "Sora", sans-serif; 
+}
+
+@theme {
+  --text-size-hero: clamp(2rem, 5vw + 1rem, 4rem);
+  --text-size-section: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+  --text-size-body: clamp(1rem, 1vw + 0.8rem, 1.125rem);
+  --text-size-small: clamp(0.75rem, 0.5vw + 0.5rem, 0.875rem);
+}
+
+
+@theme {
+  --color-offWhiteBg: #f9fafb;
+  --color-offBlackBg: #111827;
+  --color-textBlack: #000;
+  --color-textWhite: #fff;
+  --color-offGrayCard: #f3f4f6;
+  --color-offBlackCard:#374151;
+  --color-offSecondaryBlackCard:#1f2937;
+ 
+}
