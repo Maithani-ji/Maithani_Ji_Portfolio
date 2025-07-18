@@ -7,10 +7,10 @@
 }
 
 @theme {
-  --text-size-hero: clamp(2rem, 5vw + 1rem, 4rem);
-  --text-size-section: clamp(1.5rem, 3vw + 1rem, 2.5rem);
-  --text-size-body: clamp(1rem, 1vw + 0.8rem, 1.125rem);
-  --text-size-small: clamp(0.75rem, 0.5vw + 0.5rem, 0.875rem);
+  --text-size-hero: clamp(2rem, 5vw , 4rem);
+  --text-size-section: clamp(1.5rem, 3vw , 2.5rem);
+  --text-size-body: clamp(1rem, 1vw , 1.125rem);
+  --text-size-small: clamp(0.75rem, 0.5vw , 0.875rem);
 }
 
 
