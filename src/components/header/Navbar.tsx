@@ -1,12 +1,13 @@
-import React from "react"
+
 import DownloadBtn from "../../assets/icons/down.svg?react"
-import BurgerBtn from "../../assets/icons/burger.svg?react"
+
+import { RxHamburgerMenu } from "react-icons/rx"
 const Navbar = () => {
   const midSection : string[]=["About Me","Skills","Projects","Contact Me"]
   return (
     <>
     {/* Top nav bar on web */}
-      <div className="hidden sm:flex fixed top-0 left-0 right-0  p-5 text-size-body ">
+      <div className="hidden lg:flex fixed top-0 left-0 right-0  px-5 py-2 text-size-body bg-offWhiteBg dark:bg-offBlackBg ">
       <div className="flex flex-1 flex-row justify-between items-center" >
         <div>
           <p className="font-bold">TM</p>
@@ -27,8 +28,8 @@ const Navbar = () => {
       </div>
     </div>
 
-     {/* Top nav bar on web */}
-     <div className="flex sm:hidden fixed top-0 left-0 right-0  p-5 text-size-body ">
+     {/* Top nav bar on mobile */}
+     <div className="flex lg:hidden fixed top-0 left-0 right-0  px-5 py-2 text-size-body  bg-offWhiteBg dark:bg-offBlackBg">
       <div className="flex flex-1 flex-row justify-between items-center" >
         <div>
           <p className="font-bold">TM</p>
@@ -36,7 +37,7 @@ const Navbar = () => {
        
         <button className="flex items-center justify-center transition ease-in-out delay-50  hover:scale-105 duration-300">
           
-            <BurgerBtn className=" h-[3vh] w-[3vh]"/>
+        <RxHamburgerMenu size={"3vh"} />
         </button>
       </div>
     </div>        
@@ -44,7 +45,7 @@ const Navbar = () => {
             
 
     {/* for bottom nav bar for small screen */}
-    {/* <div className="sm:hidden fixed bottom-0 left-0 right-0  p-5 text-size-body ">
+    {/* <div className="lg:hidden fixed bottom-0 left-0 right-0  p-5 text-size-body ">
       <div className="flex flex-1 flex-row justify-between items-center" >
         <div>
           <p className="font-bold">TM</p>
