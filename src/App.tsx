@@ -5,7 +5,7 @@ import AppRoutes from "./route/AppRoute"
 const App = () => {
   return (
     <ThemeProvider>
-      <main className="flex flex-1 flex-col h-screen min-h-0 bg-offWhiteBg  dark:bg-offBlackBg   font-Sora  text-textBlack  dark:text-textWhite">
+      <main className="flex flex-1 flex-col min-h-screen  bg-offWhiteBg  dark:bg-offBlackBg   font-Sora  text-textBlack  dark:text-textWhite">
 
 
       <AppRoutes/>
