@@ -1,6 +1,6 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const footerText = `© ${currentYear} Created and coded with ❤️ by Tushar Maithani`;
+  const footerText = `© ${currentYear} Created and Coded with ❤️ by Tushar Maithani`;
 
   return (
     <footer className="flex flex-col items-center justify-center w-full p-5 mt-10 bg-offGrayCard dark:bg-offSecondaryBlackCard">
